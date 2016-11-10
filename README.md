@@ -4,9 +4,11 @@ The level set estimation and visualization.
 - Paper reference: Chen, Yen-Chi, Christopher R. Genovese, and Larry Wasserman. "Density Level Sets: Asymptotics, Inference, and Visualization." arXiv preprint arXiv:1504.05438 (2015).
 - Contact: yenchic@uw.edu
 
+- `HDLV_RS.R` is for Rstudio that allows a visualzation using the Shiny app.
+- `HDLV.R` is for ordinary R. 
+
+
 ## HDLV_RS.R
-
-
 ### HDLV
 `HDLV.default = function(data,h = NULL, lv_seq=NULL, lv_min=NULL, eps=1.0e-8, max.iterations=1000, cut=0.1, ...)`
 
