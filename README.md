@@ -8,6 +8,8 @@ The level set estimation and visualization.
 
 
 ### HDLV
+`HDLV.default = function(data,h = NULL, lv_seq=NULL, lv_min=NULL, eps=1.0e-8, max.iterations=1000, cut=0.1, ...)`
+
 - The main function for computing level set estimation and visualization.
 - Inputs:
   - data: Input data matrix.
