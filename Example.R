@@ -4,8 +4,8 @@
 # Date: 04/20/2015
 #High dimension level set
 library(scatterplot3d)
-#source("HDLV_RS.R") ## For R-studio
-source("HDLV.R") ## For ordinary R
+source("HDLV_RS.R") ## For R-studio
+#source("HDLV.R") ## For ordinary R
 
   ## Five cluster dataset (d = 3+d.add dimensions)
 X = five_cluster(d.add=7)
