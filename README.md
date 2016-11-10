@@ -16,7 +16,7 @@ The level set estimation and visualization.
   - data: Input data matrix.
   - h: Smoothing parameter. Default *NULL* will choose from the normal reference rule.
   - lv_seq: A sequence of density levels. Default *NULL* will choose from a sequence of level.
-  - lv_min: Minimal density level (to stablized the level sets). Default *NULL* will pick $0.05*p_max$.
+  - lv_min: Minimal density level (to stablized the level sets). Default *NULL* will pick $$0.05*p_max$$.
   - eps: The tolerance. If mean shift moves less than this value, we will consider it done.
   - max.iterations: Maximal number of iteration for mean shift.
   - cut: The cut for heirachical clustering (we cut the dedrogram by height = cut*h).
