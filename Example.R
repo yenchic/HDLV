@@ -1,5 +1,5 @@
 # Author: Yen-Chi Chen, Christopher R. Genovese, Larry Wasserman
-# Maintainer: Yen-Chi Chen <yenchic@andrew.cmu.edu>
+# Maintainer: Yen-Chi Chen <yenchic@uw.edu>
 # Reference: Chen, Yen-Chi, Christopher R. Genovese, and Larry Wasserman. "Density Level Sets: Asymptotic, Inference, and Visualization."
 # Date: 04/20/2015
 #High dimension level set
