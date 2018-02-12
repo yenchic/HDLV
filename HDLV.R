@@ -122,7 +122,7 @@ fms = function(data, query, h, eps=1.0e-8, max.iterations=100, cut = 0.1){
 	pt_ms = MS(data, query, h=h, eps=eps, max.iterations= max.iterations)
 	D1 = dist(pt_ms)
 	D1_hclust = hclust(D1)
-	cluster_lab= cutree(D1_hclust, h=0.1*h)
+	cluster_lab= cutree(D1_hclust, h=cut*h)
 		# find the cluster lable
 		
 	modes = matrix(NA, nrow=max(cluster_lab), ncol=ncol(X))
